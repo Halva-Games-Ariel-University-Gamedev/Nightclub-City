@@ -112,5 +112,9 @@ Nightclub city הוא משחק ניהול-אסטרטגיה בו המשאב הע�
 
 [https://play.google.com/store/apps/details?id=com.iterationone.nightclubtycoon](https://play.google.com/store/apps/details?id=com.iterationone.nightclubtycoon)
 משחק נייד קלאסי בעל מודל התמכרות למען תשלום FREEMIUM - פחות הכיוון אצלנו.
+משחק 3: Disco Simulator (Steam)  
+🔗 [https://store.steampowered.com/app/1226970/Disco_Simulator/](https://store.steampowered.com/app/1226970/Disco_Simulator/)  
+![image](https://github.com/user-attachments/assets/02a9c511-c9c2-4894-800f-e50bf2a76b59) 
+משחק ניהול מועדון לילה שאכן סוף-סוף דומה ברעיון, אך מאוד רחוק ביישום מהחזון שלנו- מערכת לניהול הצוות, אינטרקטיביות עם מדד ה"וייב", ניהול הכספים בשיווק ואפילו בכניסה למועדון- המון רעיונות שחסרים פה.
 
 ---
