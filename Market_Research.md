@@ -4,12 +4,14 @@
 
 אי אפשר להגיד כי הזאנר פופולרי, אך הוא בהחלט לא מת.
 שאלתי את ג'ימניי מה מצב ההכנסות בשוק משחקיי הניהול ב2025:
+
 There are no definitive 2025 income figures specifically for the management games genre, but the overall video game market is projected to be around $189 billion in 2025, growing steadily from 2024. Revenue is generated through various models, particularly free-to-play games that earn through ads and in-app purchases, and the mobile and console sectors are seeing growth. Within the management genre, individual titles have generated significant revenue, but specific 2025 figures for the entire genre or its individual games are not yet available. 
+
 יש עוד המון תתי-זאנר דומים - CITY-BUILDER עם משחקים כמו Cities Skylines שנורא מצליח.
 וז'אנר ה-Sims שהוא אימפרייה בפניי עצמה - לא באמת אותו דף אך גם לא מאוד שונה.
 <img width="1260" height="754" alt="image" src="https://github.com/user-attachments/assets/7d469687-d099-402e-8d40-c374c598960e" />
 
-בנייד המצב כבר שונה לגמריי — משחקיי ניהול מחזיקים את השוק כבר שנים,
+בנייד המצב כבר שונה לגמריי - משחקיי ניהול מחזיקים את השוק כבר שנים,
 עם משחקים כמו Clash of Clans שמצאו את הנוסחה המושלמת לניהול־התמכרות על מנגנוני זמן.
 <img width="1027" height="602" alt="image" src="https://github.com/user-attachments/assets/4f80742b-b290-4dcc-87a3-6082cb7ec451" />
 
