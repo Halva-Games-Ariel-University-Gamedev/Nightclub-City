@@ -13,6 +13,15 @@ There are no definitive 2025 income figures specifically for the management game
 עם משחקים כמו Clash of Clans שמצאו את הנוסחה המושלמת לניהול־התמכרות על מנגנוני זמן.
 <img width="1027" height="602" alt="image" src="https://github.com/user-attachments/assets/4f80742b-b290-4dcc-87a3-6082cb7ec451" />
 
+מתחרים נוספים דומים הם HAYDAY - משחק ניהול חווה שגם הוא של SUPERCELL ענקית משחקיי הניהול בנייד
+<img width="1205" height="399" alt="image" src="https://github.com/user-attachments/assets/bf39490c-4eb3-4750-b452-ed8b915e84bf" />
+שוב חוזרים על אותו מודל - FREEMIUM. בו המשחק בחינם אך מגלגלים המון כסף על מוניטזציה.
+
+ובדומה לSIMS יש לנו גם את SIMCITY- משחק ניהול עיר במודל יותר בוגר- ללא מונטזציה- PAY TO PLAY וזהו. 
+<img width="1400" height="806" alt="image" src="https://github.com/user-attachments/assets/5923d3b6-a770-447e-b8b1-47ea7a58cf53" />
+
+הכותר האחרון בסדרה המוכרת נורא איכזב- ומאז לא הגיע חדש. בדיוק הסיבה שCITIES SKYLINES כל כך הפך את הקערה והצליח- וזה הזמן שבו משחקיי ניהול אינדי קטנים יכולים לפרוץ גם כן- שום חברה דומיננטית לא שולטת בשוק המחשב.
+
 קהל יעד
 
 המשחק יפותח למחשב לכן כנראה שקהל היעד יהיה יותר מבוגר.
