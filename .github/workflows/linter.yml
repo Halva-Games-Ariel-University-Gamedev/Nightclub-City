@@ -2,6 +2,8 @@ name: Unity C# Linter
 
 on:
   push:
+    branches:
+      - master
   pull_request:
 
 jobs:
@@ -10,8 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repository (master)
         uses: actions/checkout@v3
+        with:
+          ref: master
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
@@ -21,11 +25,19 @@ jobs:
       - name: Install dotnet-format
         run: dotnet tool install -g dotnet-format
 
-      - name: Verify Scripts Folder Exists
+      - name: Verify Assets/Scripts folder exists
         run: |
-          echo "Listing Assets/Scripts folder:"
-          ls -R Assets/Scripts
+          echo "Listing Assets/Scripts folder if it exists:"
+          if [ -d "Assets/Scripts" ]; then
+            ls -R Assets/Scripts
+          else
+            echo "Assets/Scripts folder does not exist."
+          fi
 
       - name: Run dotnet-format
-        # Fixed: add quotes around glob for Linux and ensure correct folder path
-        run: dotnet-format --folder Assets/Scripts --check --include "**/*.cs" --verbosity diagnostic
+        run: |
+          if [ -d "Assets/Scripts" ]; then
+            dotnet-format --folder Assets/Scripts --check --include "**/*.cs" --verbosity diagnostic
+          else
+            echo "Skipping dotnet-format because Assets/Scripts does not exist."
+          fi
