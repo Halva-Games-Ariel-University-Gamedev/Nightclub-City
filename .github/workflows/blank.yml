@@ -1,0 +1,43 @@
+name: Unity C# Linter
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  lint:
+    name: Run C# Linter
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository (master)
+        uses: actions/checkout@v3
+        with:
+          ref: master
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.x'
+
+      - name: Install dotnet-format
+        run: dotnet tool install -g dotnet-format
+
+      - name: Verify Assets/Scripts folder exists
+        run: |
+          echo "Listing Assets/Scripts folder if it exists:"
+          if [ -d "Assets/Scripts" ]; then
+            ls -R Assets/Scripts
+          else
+            echo "Assets/Scripts folder does not exist."
+          fi
+
+      - name: Run dotnet-format
+        run: |
+          if [ -d "Assets/Scripts" ]; then
+            dotnet-format --folder Assets/Scripts --check --include "**/*.cs" --verbosity diagnostic
+          else
+            echo "Skipping dotnet-format because Assets/Scripts does not exist."
+          fi
