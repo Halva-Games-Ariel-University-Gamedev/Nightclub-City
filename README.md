@@ -5,11 +5,6 @@
 <<<<<<< HEAD
 https://guythelevy.itch.io/gamdev-week-4
 
-# הקוד הוא בבראנץ MASTER
-=======
-
->>>>>>> origin/master
----
 
 ## מהות המשחק
 
