@@ -78,8 +78,8 @@ public class NPC : MonoBehaviour
             if (GameManager.instance != null)
             {
                 GameObject dollar = Instantiate(
-                    GameManager.instance.dollarPrefab, 
-                    transform.position + new Vector3(0, 1f, 0), 
+                    GameManager.instance.dollarPrefab,
+                    transform.position + new Vector3(0, 1f, 0),
                     Quaternion.identity
                 );
             }

@@ -4,7 +4,7 @@ public class Spawner : MonoBehaviour
 {
     public GameObject npcPrefab;
     public float spawnInterval = 1.5f;
-    public int maxNPCs = 20; 
+    public int maxNPCs = 20;
 
     public bool IsSpawning { get; private set; }
 

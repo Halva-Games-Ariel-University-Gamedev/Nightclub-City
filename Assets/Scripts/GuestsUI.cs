@@ -1,9 +1,9 @@
 using UnityEngine;
-using TMPro; 
+using TMPro;
 
 public class GuestsUI : MonoBehaviour
 {
-    public TextMeshProUGUI guestsText; 
+    public TextMeshProUGUI guestsText;
 
     void Update()
     {

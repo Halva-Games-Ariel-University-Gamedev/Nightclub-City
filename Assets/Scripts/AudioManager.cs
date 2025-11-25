@@ -5,9 +5,9 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
 
     [Header("Audio Tracks")]
-    public AudioSource audioSource;   
-    public AudioClip popTrack;        
-    public AudioClip technoTrack;     
+    public AudioSource audioSource;
+    public AudioClip popTrack;
+    public AudioClip technoTrack;
 
     private AudioClip[] tracks;
     private int currentTrack = 0;
@@ -25,10 +25,10 @@ public class AudioManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        
+
         tracks = new AudioClip[] { popTrack, technoTrack };
 
-        
+
         if (audioSource == null)
             audioSource = GetComponent<AudioSource>();
     }

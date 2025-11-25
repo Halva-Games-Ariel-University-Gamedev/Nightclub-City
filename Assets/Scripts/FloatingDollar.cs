@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class FloatingDollar : MonoBehaviour
 {
-    public float floatSpeed = 2f;   
-    public float lifetime = 0.1f;     
-    public Vector3 offset = new Vector3(0, 1f, 0); 
+    public float floatSpeed = 2f;
+    public float lifetime = 0.1f;
+    public Vector3 offset = new Vector3(0, 1f, 0);
 
     private SpriteRenderer sr;
 
