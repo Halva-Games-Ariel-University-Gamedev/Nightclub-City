@@ -1,8 +1,8 @@
 name: Unity C# Linter
 
 on:
-  push:  # Trigger on every push
-  pull_request:  # Also run on pull requests
+  push:
+  pull_request:
 
 jobs:
   lint:
@@ -16,11 +16,16 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.x'  # Adjust to the required .NET version for Unity
+          dotnet-version: '7.x'
 
       - name: Install dotnet-format
         run: dotnet tool install -g dotnet-format
 
+      - name: Verify Scripts Folder Exists
+        run: |
+          echo "Listing Assets/Scripts folder:"
+          ls -R Assets/Scripts
+
       - name: Run dotnet-format
-        # Run dotnet-format in check mode to identify issues only in .cs files in Assets/Scripts and subfolders
-        run: dotnet-format Assets/Scripts --check --folder --include **/*.cs --verbosity diagnostic
+        # Fixed: add quotes around glob for Linux and ensure correct folder path
+        run: dotnet-format --folder Assets/Scripts --check --include "**/*.cs" --verbosity diagnostic
